@@ -1,0 +1,135 @@
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@media (max-width: 600px) {
+ 
+}
+.headline{
+  text-align: center;
+  border-radius: 50px;
+ color: rgb(255, 255, 255);
+}  
+
+/* General Styling */
+.blog-container {
+  max-width: 1200px;
+  margin: 50px ;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to one column on small devices */
+  gap: 20px; /* Add space between image and content */
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.text-container {
+  padding: 20px;
+  text-align: left;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.read-more {
+  background-color: #07192D;
+  color: #04DBF7;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.read-more:hover {
+  background-color: #0056b3;
+}
+/* Media Query for Larger Screens (Flexbox Layout for Medium and Above Devices) */
+@media screen and (min-width: 768px) {
+  .content {
+    display: flex; 
+    flex-direction: row;
+    gap: 30px; 
+  }
+  .image-container {
+    flex: 1; 
+  }
+  .text-container {
+    flex: 2; 
+  }
+  
+}
+.categories{
+  text-align: center;
+  padding: 40px ;
+}
+.floatingImg{
+  width: 200px;
+}
+/* Footer Styling */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background-color: #07192D;
+  color: #04DBF7;
+  padding: 60px 50px;
+}
+.footer-column {
+  text-align: center;
+}
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin: 8px 0;
+}
+.footer-column ul li a {
+  color: #04DBF7;
+  text-decoration: none;
+}
+.footer-column ul li a:hover {
+  color: #1a73e8;
+}
+@media (max-width: 768px) {
+  .blog-container{
+    margin: auto;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
