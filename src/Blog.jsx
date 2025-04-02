@@ -36,7 +36,7 @@ export default class Home extends Component {
        padding: '0px 30px' 
         }}>Join the country’s top note-sharing platform to find the best subject-wise notes for HSC</p>
     </div>
-    <img className='floatingImg'src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnRnbnZmb25jaWF3bzRid2dzY2k2a3JkeHkxa2lnaHczb2xxMmhoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/XQ99RPTQeqN0CDBnr5/giphy.gif'/>
+    
    </div>
 
 {/* //image slider////// */}
