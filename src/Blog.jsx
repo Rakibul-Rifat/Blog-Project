@@ -49,8 +49,8 @@ export default class Home extends Component {
        backgroundColor: 'rgba(255, 255, 255, 0.23)'
     }}><h1>#Latest Blogs</h1>
    </div>
-  
-   <div className="blog-container">
+  <div className='blog-content'>
+  <div className="blog-container">
       <div className="content">
         {/* Image Section */}
         <div className="image-container">
@@ -117,6 +117,8 @@ export default class Home extends Component {
         </div>
       </div>
     </div>
+  </div>
+  
 
 <div className="categories">
 <h1>Categories</h1>
